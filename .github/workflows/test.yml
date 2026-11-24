@@ -17,5 +17,5 @@ jobs:
       - name: Run QA test
         run: |
           echo "Starting QA tests..."
-          test -f README.md
+          test -f pelmeni.txt
           echo "Test PASSED: README.md exists"
